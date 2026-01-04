@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terms of Use - Vignan Mahotsav</title>
+  <link rel="stylesheet" href="../assets/css/index.css">
+
+  <link rel="stylesheet" href="../assets/css/mobile-fix.css">
+
+</head>
+<body style="background: linear-gradient(135deg, #232743 0%, #10141f 100%); color:#eaf3fc; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <header class="header">
+    <nav class="nav-container">
+      <div class="logo">VIGNAN MAHOTSAV</div>
+      <div class="nav-links"></div>
+    </nav>
+  </header>
+
+  <main style="max-width:900px;margin:120px auto 60px auto;padding:24px 18px;background:#191A23;border-radius:18px;border:1.5px solid #273A51;box-shadow:0 6px 24px rgba(76,198,255,0.22);">
+    <h1 style="font-size:2rem;color:#fcd14d;margin-bottom:1rem;">Terms of Use</h1>
+    <p style="color:#b5eaff;margin-bottom:1.2rem;">Last updated: November 2025</p>
+
+    <p style="line-height:1.7;margin-bottom:1rem;">By accessing and using the Vignan Mahotsav website and registering for events, you agree to the following terms and conditions.</p>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">1. Use of the Website</h2>
+    <ul style="margin-left:1.2rem;line-height:1.7;">
+      <li>You agree to provide accurate and truthful information during registration.</li>
+      <li>You are responsible for keeping your Mahotsav ID (MHID) and password secure.</li>
+      <li>You agree not to misuse the website or attempt to interfere with its security or operation.</li>
+    </ul>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">2. Event Participation</h2>
+    <ul style="margin-left:1.2rem;line-height:1.7;">
+      <li>All event rules published on the website or communicated by organizers must be followed.</li>
+      <li>The organizers reserve the right to modify event rules, schedules, or formats when required.</li>
+      <li>Misconduct, use of unfair means, or violation of campus rules may lead to disqualification.</li>
+    </ul>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">3. Content and Materials</h2>
+    <p style="line-height:1.7;">Logos, designs, and content on this website are for Mahotsav-related use only. You may not copy or reuse them for commercial purposes without permission.</p>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">4. Limitation of Liability</h2>
+    <p style="line-height:1.7;">While we aim to provide accurate and up-to-date information, the organizers are not liable for any indirect or consequential damages arising from the use of this website or participation in events.</p>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">5. Changes to These Terms</h2>
+    <p style="line-height:1.7;">The Terms of Use may be updated from time to time. Any changes will be reflected on this page, with an updated "Last updated" date.</p>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">6. Contact</h2>
+    <p style="line-height:1.7;">If you have questions about these Terms, please contact the Mahotsav organizers using the contact details provided on the official website.</p>
+
+    <div style="margin-top:2rem;">
+      <a id="back-link" href="../index.html" style="color:#4dd9ff;text-decoration:none;">&larr; Back</a>
+    </div>
+  </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var backLink = document.getElementById('back-link');
+      if (!backLink) return;
+      var ref = document.referrer || '';
+      if (ref.indexOf('user/dashboard.php') !== -1) {
+        backLink.href = '../user/dashboard.php';
+        backLink.textContent = '\u2190 Back to Dashboard';
+      } else {
+        backLink.href = '../index.html';
+        backLink.textContent = '\u2190 Back to Home';
+      }
+    });
+  </script>
+</body>
+</html>

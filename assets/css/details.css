@@ -1,0 +1,239 @@
+body {
+  background: #181A22;
+  color: #eaf3fc;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.event-outer-frame {
+  margin: 18px auto;
+  background: rgba(16,20,31,0.98);
+  border-radius: 18px;
+  border: 3px solid #b3dcfa;
+  box-shadow: 0 2px 12px #4cc6ff33;
+  max-width: 967px;
+  width: 96vw;
+  min-height: 564px;
+  padding: 32px 24px 28px 24px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-detail-section {
+  display: flex;
+  gap: 2rem;
+  max-width: 910px;
+  margin: 0 auto;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.event-image {
+  width: 210px;
+  height: 210px;
+  flex: 0 0 210px;
+  min-width: 210px;
+  max-width: 210px;
+  margin-left: 0;
+  margin-right: 0;
+  box-shadow: 0 2px 18px #4cc6ff55;
+  border-radius: 14px;
+  background: #232743;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
+  display: block;
+}
+
+.event-detail-info {
+  flex: 1;
+  min-width: 170px;
+  max-width: 355px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding: 0 0;
+}
+
+.event-title-large {
+  color: #b3dcfa;
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: 1.1px;
+  margin-bottom: 10px;
+}
+
+.event-label {
+  font-size: 1.28rem;
+  color: #97cbee;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.event-detail-section {
+  font-size: 1.09rem;
+  margin-bottom: 5px;
+  line-height: 1.5;
+  max-width: 100%;
+}
+
+.event-section-title {
+  color: #b3dcfa;
+  font-size: 1.11rem;
+  font-weight: 700;
+  margin: 22px 0 7px 0;
+}
+
+.event-prizes {
+  color: #fcd14d;
+  font-size: 1.09rem;
+  font-weight: 700;
+  margin-top: 7px;
+}
+
+.rules-scroll {
+  max-height: 110px;
+  overflow-y: auto;
+  background: rgba(35,42,61,0.89);
+  border-radius: 8px;
+  padding: 13px 14px 11px 14px;
+  margin-top: 6px;
+  margin-bottom: 2px;
+  font-size: 1.08rem;
+}
+
+.event-contact {
+  background: rgba(20,27,38,0.93);
+  border-radius: 17px;
+  box-shadow: 0 2px 10px #4cc6ff23;
+  padding: 14px 17px 18px 17px;
+  min-width: 140px;
+  max-width: 140px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  font-size: 1.12rem;
+  color: #97cbee;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.contact-row {
+  font-size: 1rem;
+  margin-bottom: 7px;
+  letter-spacing: 0.2px;
+  color: #eaf3fc;
+}
+
+.register-btn {
+  display: block;
+  width: 92%;
+  margin: 12px auto 0 auto;
+  padding: 10px 0;
+  background: #b3dcfa;
+  color: #232743;
+  font-weight: 700;
+  font-size: 1.11rem;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: 0 2px 14px #4cc6ff33;
+  transition: background 0.14s, color 0.14s;
+}
+
+.register-btn:hover {
+  background: #fcd14d;
+  color: #222b39;
+}
+
+.detail-back-link {
+  color: #b3dcfa;
+  display: inline-flex;
+  font-size: 1.17rem;
+  font-weight: 600;
+  margin-bottom: 11px;
+  margin-left: 4px;
+  margin-top: 11px;
+  text-decoration: none;
+  align-items: center;
+}
+
+.detail-back-link:hover {
+  text-decoration: underline;
+}
+
+.detail-back-link::before {
+  content: "\2190";
+  font-size: 1.25rem;
+  margin-right: 0.35em;
+}
+
+@media (max-width: 900px) {
+  .event-outer-frame {
+    padding: 7px 2vw 16px 2vw;
+  }
+  .main-detail-section {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.3rem;
+    max-width: 99vw;
+  }
+  .event-image, .event-contact {
+    min-width: 100px;
+    max-width: 260px;
+    width: 99vw;
+    margin: 0;
+  }
+  .event-detail-info {
+    max-width: 99vw;
+    padding: 0 7vw;
+  }
+  .rules-scroll {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main-detail-section {
+    gap: 0.7rem;
+  }
+  .event-image, .event-contact {
+    min-width: 5vw;
+    max-width: 99vw;
+    width: 99vw;
+  }
+  .event-detail-info {
+    padding: 0 1vw;
+  }
+  .event-title-large {
+    font-size: 1rem;
+  }
+  .contact-title {
+    font-size: 1rem;
+  }
+  .register-btn {
+    font-size: 1rem;
+  }
+  .rules-scroll {
+    max-height: 170px;
+  }
+}

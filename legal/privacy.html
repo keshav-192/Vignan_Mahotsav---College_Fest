@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Vignan Mahotsav</title>
+  <link rel="stylesheet" href="../assets/css/index.css">
+
+  <link rel="stylesheet" href="../assets/css/mobile-fix.css">
+
+</head>
+<body style="background: linear-gradient(135deg, #232743 0%, #10141f 100%); color:#eaf3fc; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <header class="header">
+    <nav class="nav-container">
+      <div class="logo">VIGNAN MAHOTSAV</div>
+      <div class="nav-links"></div>
+    </nav>
+  </header>
+
+  <main style="max-width:900px;margin:120px auto 60px auto;padding:24px 18px;background:#191A23;border-radius:18px;border:1.5px solid #273A51;box-shadow:0 6px 24px rgba(76,198,255,0.22);">
+    <h1 style="font-size:2rem;color:#fcd14d;margin-bottom:1rem;">Privacy Policy</h1>
+    <p style="color:#b5eaff;margin-bottom:1.2rem;">Last updated: November 2025</p>
+
+    <p style="line-height:1.7;margin-bottom:1rem;">This Privacy Policy explains how Vignan Mahotsav collects, uses, and protects the information you provide while using this website and participating in the event.</p>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">1. Information We Collect</h2>
+    <ul style="margin-left:1.2rem;line-height:1.7;">
+      <li>Registration details such as name, MHID, email, phone number, college, and date of birth.</li>
+      <li>Event registration information including selected events and participation details.</li>
+      <li>Feedback or messages you submit through the feedback form.</li>
+      <li>Basic technical information such as IP address and browser details (used for security and analytics).</li>
+    </ul>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">2. How We Use Your Information</h2>
+    <ul style="margin-left:1.2rem;line-height:1.7;">
+      <li>To create and manage your Mahotsav account and MHID.</li>
+      <li>To register you for events and manage event-related communication.</li>
+      <li>To improve the event experience based on feedback and usage.</li>
+      <li>To maintain the security and integrity of the website and event systems.</li>
+    </ul>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">3. Data Sharing</h2>
+    <p style="line-height:1.7;">Your information is used only by the Mahotsav organizing team for event-related purposes. We do not sell your personal data to third parties. Limited data may be shared with internal departments or authorized partners strictly for organizing and managing the event.</p>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">4. Data Security</h2>
+    <p style="line-height:1.7;">We use reasonable technical and organizational measures to protect your data. However, no system is fully secure, and you should keep your MHID and password confidential.</p>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">5. Your Choices</h2>
+    <p style="line-height:1.7;">You can update certain information from your profile page after logging in. If you have any concerns about your data or want specific changes, please contact the organizing team.</p>
+
+    <h2 style="color:#b3dcfa;margin-top:1.6rem;">6. Contact</h2>
+    <p style="line-height:1.7;">For questions about this Privacy Policy, please contact the Mahotsav organizers via the contact details given on the official website.</p>
+
+    <div style="margin-top:2rem;">
+      <a id="back-link" href="../index.html" style="color:#4dd9ff;text-decoration:none;">&larr; Back</a>
+    </div>
+  </main>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var backLink = document.getElementById('back-link');
+      if (!backLink) return;
+      var ref = document.referrer || '';
+      if (ref.indexOf('user/dashboard.php') !== -1) {
+        backLink.href = '../user/dashboard.php';
+        backLink.textContent = '\u2190 Back to Dashboard';
+      } else {
+        backLink.href = '../index.html';
+        backLink.textContent = '\u2190 Back to Home';
+      }
+    });
+  </script>
+</body>
+</html>
