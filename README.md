@@ -1,142 +1,140 @@
-# 🚀 Vignan_Mahotsav---College_Fest
+# 🚀 Vignan_Mahotsav — College Fest Management System
 
-Vignan Mahotsav is a full-stack web platform designed to manage and showcase college fest events, registrations, schedules, and participant engagement seamlessly.
-
----
-
-## 📌 Table of Contents
-- About the Project  
-- Tech Stack  
-- Features  
-- Project Structure  
-- Screenshots  
-- Installation & Setup  
-- Environment Variables  
-- Running the Project  
-- API Endpoints  
-- Database Design  
-- Deployment  
-- Future Enhancements  
-- Contributing  
-- License  
-- Contact  
+**Vignan Mahotsav** is a **full-stack web platform** designed to manage, organize, and showcase college fest events efficiently.  
+It enables seamless handling of **event registrations, schedules, payments, and participant engagement** through a **secure, role-based system**.
 
 ---
 
 ## 🧠 About the Project
-Vignan Mahotsav is a full-fledged, professional full stack college fest management website designed to streamline event organization, participant registration, and administrative control through a role-based system.
 
-The platform consists of three major portals: User, Coordinator, and Admin, each with clearly defined responsibilities to ensure smooth and secure fest operations.
+**Vignan Mahotsav** is a **professional full-stack college fest management website** built to streamline **event organization**, **participant registration**, and **administrative control**.
 
-👤 User Portal
-The user portal allows participants to:
+The platform is divided into **three dedicated portals**, each with clearly defined responsibilities to ensure **smooth, secure, and scalable fest operations**:
 
-Register for multiple fest events
+- 👤 **User Portal**
+- 🎯 **Coordinator Portal**
+- 🛡️ **Admin Portal**
 
-Make secure online payments
+---
 
-Submit feedback for events
+## 👤 User Portal
 
-View all registered events
+The **User Portal** provides a smooth and user-friendly experience for participants. Users can:
 
-Edit and manage their profile details
+- Register for multiple fest events  
+- Make secure online payments  
+- Submit feedback for events  
+- View all registered events  
+- Edit and manage profile details  
 
-This portal focuses on providing a seamless and user-friendly experience for students and participants.
+This portal focuses on **ease of use, accessibility, and engagement**.
 
-🎯 Coordinator Portal
-The coordinator portal is designed for effective event management. Coordinators can:
+---
 
-Create and manage fest events
+## 🎯 Coordinator Portal
 
-Accept both online and offline payments
+The **Coordinator Portal** enables efficient event execution and management. Coordinators can:
 
-Assign and manage sub-coordinators
+- Create and manage fest events  
+- Accept both online and offline payments  
+- Assign and manage sub-coordinators  
+- Track event registrations and payments  
+- Monitor event-related activities  
 
-Track event registrations and payments
+This portal ensures **proper coordination and smooth execution**.
 
-Monitor event-related activities
+---
 
-This portal ensures efficient coordination and smooth execution of events.
+## 🛡️ Admin Portal
 
-🛡️ Admin Portal
-The admin portal is restricted to a single super admin and provides complete system control. The admin can:
+The **Admin Portal** is restricted to a **single super admin** and provides complete system-level control. The admin can:
 
-Assign and manage coordinators
+- Assign and manage coordinators  
+- Block or remove coordinators when required  
+- View all events and coordinator details  
+- Monitor overall fest performance  
+- Access analytics and system insights  
 
-Block or remove coordinators when required
+This portal ensures **security, transparency, and centralized administration**.
 
-View all events and coordinator details
+---
 
-Monitor overall fest performance
+## ✅ Overall Objective
 
-Access analytics and system insights
+The objective of this project is to deliver a **scalable, secure, and professional web solution** for managing **large-scale college festivals**, while:
 
-This portal ensures security, transparency, and centralized administration.
-
-✅ Overall Objective
-The project aims to deliver a scalable, secure, and professional web solution for managing large-scale college festivals, reducing manual effort while improving efficiency, accuracy, and user engagement.
-
+- Reducing manual effort  
+- Improving efficiency and accuracy  
+- Enhancing user engagement  
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- HTML / CSS / JavaScript  
- 
+- HTML  
+- CSS  
+- JavaScript  
 
 ### Backend
-- PHP
+- PHP  
 
 ### Database
-- MySQL (Xampp Server)
-
+- MySQL (XAMPP Server)
 
 ### Tools & Platforms
 - Git & GitHub  
 - VS Code  
-- Xampp
+- XAMPP  
 
 ---
 
-## ✨ Features
+## ✨ Key Features
+
 - User Authentication & Authorization  
+- Role-Based Access Control  
 - CRUD Operations  
-- Responsive UI  
+- Responsive User Interface  
 - Secure API Integration  
-- Role-based Access Control  
-- Error Handling & Validation  
+- Error Handling & Input Validation  
 
 ---
 
-## User's Dashboard ScreenShot
+## 🖼️ Screenshots
 
-<img src="screenshots/Img1.jpeg" width="45%" alt="Landing_1">
-<img src="screenshots/Img2.jpeg" width="45%" alt="Landing_2">
-<img src="screenshots/Login.jpeg" width="45%" alt="Login_Register">
-<img src="screenshots/Img3.jpeg" width="45%" alt="Event_Page">
-<img src="screenshots/Img4.jpeg" width="45%" alt="Event-Team_Registration">
-<img src="screenshots/Img5.jpeg" width="45%" alt="Payment_MHID">
+<img src="screenshots/Img1.jpeg" width="75%" alt="Landing Page">
+<img src="screenshots/Img2.jpeg" width="75%" alt="Home Page">
+<img src="screenshots/Login.jpeg" width="75%" alt="Login and Registration">
+<img src="screenshots/Img3.jpeg" width="75%" alt="Events Page">
+<img src="screenshots/Img4.jpeg" width="75%" alt="Event Team Registration">
+<img src="screenshots/Img5.jpeg" width="75%" alt="Payment Page">
+
+---
 
 ## ⚙️ Installation and Setup
+
 Follow the steps below to set up and run the project locally.
 
-🔧 Prerequisites
+---
+
+### 🔧 Prerequisites
+
 Ensure the following are installed on your system:
 
-PHP 8.x or above
+- PHP 8.x or above  
+- Apache Server (XAMPP / WAMP / LAMP)  
+- MySQL Database  
+- Git  
+- VS Code (Recommended)  
 
-Apache Server (XAMPP / WAMP / LAMP)
-
-MySQL Database
-
-Git
-
-VS Code (recommended)
+---
 
 ## 📥 Clone the Repository
+
+
 git clone https://github.com/keshav-192/Vignan_Mahotsav---College_Fest.git
 cd Vignan_Mahotsav---College_Fest
+
 📁 Project Placement
 If using XAMPP, place the project inside:
 
@@ -162,42 +160,44 @@ http://localhost/Vignan_Mahotsav/
 Login using appropriate credentials for User, Coordinator, or Admin.
 
 ## 📜 License
-This project is licensed under the MIT License.
+
+This project is licensed under the **MIT License**.
 
 You are free to:
 
-Use the project for personal or educational purposes
+- **Use** the project for personal or educational purposes  
+- **Modify** and **distribute** the source code  
+- **Build upon** this project for learning and development  
 
-Modify and distribute the source code
+⚠️ **Commercial usage requires proper attribution to the original author.**
 
-Build upon this project for learning and development
-
-⚠️ Commercial usage requires proper attribution to the original author.
-
-
+---
 
 ## 👨‍💻 Author
-Keshav Singh
-Full Stack Developer (PHP and Java Full Stack (Adavanced Java))
 
-Strong interest in backend development using PHP
+**Keshav Singh**  
+**Full Stack Developer** *(PHP & Java Full Stack – Advanced Java)*
 
-Passionate about building scalable, role-based web applications.
+- Strong interest in **backend development using PHP**  
+- Passionate about building **scalable, role-based web applications**  
+- Focused on writing **clean, secure, and maintainable code**  
 
-Focused on writing clean, secure, and maintainable code.
+---
 
 ## 📬 Contact
-📧 Email: your-231fa04g36@gmail.com
-🔗 GitHub: https://github.com/keshav-192
 
+- 📧 **Email:** your-231fa04g36@gmail.com  
+- 🔗 **GitHub:** https://github.com/keshav-192  
 
 Feel free to reach out for:
 
-Project feedback
+- **Project feedback**  
+- **Collaboration opportunities**  
+- **Technical discussions**  
 
-Collaboration opportunities
-
-Technical discussions
+---
 
 ## ⭐ Rating
-If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+If you found this project helpful, please consider giving it a ⭐ on **GitHub**.
+
