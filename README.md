@@ -5,6 +5,9 @@ It enables seamless handling of **event registrations, schedules, payments, and 
 
 ---
 
+**[🌐 Live Website]**(https://keshav-192.infinityfree.me)
+
+
 ## 🧠 About the Project
 
 **Vignan Mahotsav** is a **professional full-stack college fest management website** built to streamline **event organization**, **participant registration**, and **administrative control**.
@@ -186,7 +189,7 @@ You are free to:
 
 ## 📬 Contact
 
-- 📧 **Email:** your-231fa04g36@gmail.com  
+- 📧 **Email:** 231fa04g36@gmail.com  
 - 🔗 **GitHub:** https://github.com/keshav-192  
 
 Feel free to reach out for:
